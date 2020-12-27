@@ -1,0 +1,73 @@
+/* img {
+  width: 1680px;
+  height: 930px;
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+.nvbar {
+  margin-left: 70rem;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("./images/kristaps-ungurs-zf3gwt5Rod0-unsplash.jpg");
+
+  min-height: 1000px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: rgb(248, 4, 4);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  color: green;
+}
+
+#nvbr {
+  margin-left: 39rem;
+}
+
+.one a:hover {
+  float: left;
+  color: rgb(248, 4, 4);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
